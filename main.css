@@ -3,6 +3,7 @@ body {
 }
 .dropzone, .block {
     height: 100%;
+    min-height: 150px;
     border: solid 5px #eee;
     border-radius: 1em;
     padding: 0;
@@ -13,19 +14,18 @@ body {
     border-radius: 1em;
 }
 .dropzone {
-    min-height: unset;
+    min-height: 150px;
 }
 
 
 .block {
     margin: 10px;
     border: none;
-    /*height: 4em;*/
-    min-width: 40%;
+    min-width: 30%;
 }
 .result.block {
     border: solid 5px lightgray;
-    min-height: 6em;
+    /*min-height: 6em;*/
 }
 h2 {
     font-size: 2rem;
