@@ -15,13 +15,19 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
-
+    <script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css"
+            type="text/css"
+    />
 
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="main.js">
     <link rel="icon" type="image/png" href="favicon.ico" />
 </head>
 <body>
+
 
 <div class="container">
     <p class="clearfix">&nbsp;</p>
@@ -33,13 +39,18 @@
     <p class="clearfix">&nbsp;</p>
     <div class="row">
         <div class="block col col-md-3 col-sm-12 col-xs-12">
-            111
+            <form id="dropzone1" class="dropzone" action="post.php" enctype="multipart/form-data" method="post">
+                <div class="dz-message" data-dz-message><span>Drag here parent's photo</span></div>
+            </form>
         </div>
         <div class="block col col-md-3 col-sm-12 col-xs-12">
-            222
+            <form id="dropzone2" class="dropzone" action="post.php" enctype="multipart/form-data" method="post">
+                <div class="dz-message" data-dz-message><span>Drag here parent's photo</span></div>
+            </form>
         </div>
         <div class="result block col col-md-3 col-sm-12 col-xs-12">
-            333
+            <p class="clearfix"></p>
+            <div class="dz-message" data-dz-message><span>Get the Result</span></div>
         </div>
     </div>
 </div>

@@ -1,14 +1,33 @@
+.dropzone, .block {
+    height: 100%;
+    border: solid 5px #eee;
+    border-radius: 1em;
+    padding: 0;
+}
+.dropzone.dz-drag-hover {
+    background-color: #d1ffe0;
+    border: dashed 5px #3e9663;
+    border-radius: 1em;
+}
+
+
+
 .block {
     margin: 1em;
-    border: dashed 5px cornflowerblue;
-    border-radius: 1em;
+    border: none;
     height: 10em;
-    /*min-width: 200px;*/
+    min-width: 200px;
 }
 .result.block {
     border: solid 5px lightgray;
 }
 h2 {
     font-size: 2rem;
-    color: cornflowerblue;
+    color: #d86371;
+}
+.dz-message {
+    color: darkgrey;
+    font-size: 1.5em;
+    padding: .3em;
+    text-align: center;
 }
