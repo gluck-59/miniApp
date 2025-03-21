@@ -9,17 +9,20 @@
     border: dashed 5px #3e9663;
     border-radius: 1em;
 }
-
+.dropzone {
+    min-height: unset;
+}
 
 
 .block {
-    margin: 1em;
+    margin: 10px;
     border: none;
-    height: 10em;
-    min-width: 200px;
+    /*height: 4em;*/
+    min-width: 40%;
 }
 .result.block {
     border: solid 5px lightgray;
+    min-height: 6em;
 }
 h2 {
     font-size: 2rem;
