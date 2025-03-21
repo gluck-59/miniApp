@@ -9,7 +9,7 @@ $(document).ready(function () {
         }
     });
 
-    $(".dropzone").on("addedfile", file => {
-        console.log("A file has been added");
-    });
+    $(".dropzone").on('drop', function (){
+        alert()
+    })
 })
