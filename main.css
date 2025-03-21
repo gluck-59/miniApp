@@ -1,0 +1,14 @@
+.block {
+    margin: 1em;
+    border: dashed 5px cornflowerblue;
+    border-radius: 1em;
+    height: 10em;
+    /*min-width: 200px;*/
+}
+.result.block {
+    border: solid 5px lightgray;
+}
+h2 {
+    font-size: 2rem;
+    color: cornflowerblue;
+}
